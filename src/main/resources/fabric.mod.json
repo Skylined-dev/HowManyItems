@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "howmanyitems",
+  "version": "${version}",
+
+  "name": "How many Items",
+  "description": "This is a mod about calculating how many items do you need",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/howmanyitems/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.skylin3d.howmanyitems.HowManyItems"
+    ],
+    "client": [
+      "fr.skylin3d.howmanyitems.HowManyItemsClient"
+    ]
+  },
+  "mixins": [
+    "howmanyitems.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
