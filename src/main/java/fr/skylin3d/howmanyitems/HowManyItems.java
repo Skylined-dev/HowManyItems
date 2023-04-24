@@ -12,4 +12,8 @@ public class HowManyItems implements ModInitializer {
 	public void onInitialize() {
 
 	}
+
+	public static String MessageStringFormat(String msg){
+		return "[" + LOGGER.getName() + "] " + msg;
+	}
 }

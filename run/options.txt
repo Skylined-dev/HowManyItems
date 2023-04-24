@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.8
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -34,7 +34,7 @@ gamma:0.5
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:0
+guiScale:2
 particles:0
 maxFps:120
 graphicsMode:1
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -68,11 +68,11 @@ useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
 narrator:0
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
@@ -92,8 +92,8 @@ key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
 key_key.sneak:key.keyboard.left.shift
-key_key.sprint:key.keyboard.left.control
-key_key.drop:key.keyboard.q
+key_key.sprint:key.keyboard.q
+key_key.drop:key.keyboard.r
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
@@ -118,6 +118,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.howmanyitems.open_material_list:key.keyboard.semicolon
+key_key.howmanyitems.test:key.keyboard.keypad.0
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
